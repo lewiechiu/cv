@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300');
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,400,600,800');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
+.title {
+    font-size: 80px;
+    color: chocolate;
+}
+
+.title {
+    color: aqua;
+    /*指令以後者為最終決定狀況*/
+    margin: 0px;
+    text-align: right;
+}
+
+.inside {
+    font-family: cursive;
+    font-family: 'Raleway', sans-serif;
+    /*On demand font{roboto}*/
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: coral;
+    color: #C89F9C;
+    /*(red,green,blue,transluscence),also u can highlight it, and press cmd+e to edit the color you want*/
+    letter-spacing: 6px;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 35px;
+    background: gray;
+    text-shadow: 0 3px 0 rgba(255, 255, 255, 0.1);
+    /*(x 偏移量，y偏移量，暈開程度，顏色)*/
+}
+
+a {
+    text-decoration: none;
+}
+
+.button {
+    color: white;
+    background: #BC43DD;
+    display: inline-block;
+    width: 120px;
+    height: 44px;
+    text-align: center;
+    line-height: 44px;
+}
+.button:hover{
+    background: #b789c4;
+}
+.button:active{
+    background: #9200ba;
+}
